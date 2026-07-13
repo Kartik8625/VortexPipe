@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS clicks (
+    id SERIAL PRIMARY KEY,
+    user_id VARCHAR(255),
+    url VARCHAR(255),
+    ts TIMESTAMP WITH TIME ZONE,
+    referrer VARCHAR(255),
+    ip VARCHAR(45)
+);

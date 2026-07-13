@@ -20,7 +20,6 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: 'PLAINTEXT'
       KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
       KAFKA_LOG_DIRS: '/tmp/kraft-combined-logs'
-      KAFKA_HEAP_OPTS: "-Xmx256m -Xms256m"
       # Static cluster ID for KRaft mode
       CLUSTER_ID: 'MkU3OEVBNTcwNTJENDM2Qk'
     volumes:
